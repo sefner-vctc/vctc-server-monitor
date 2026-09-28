@@ -22,7 +22,7 @@ SSH_TARGET="${3:?ssh-target required (e.g. root@1.2.3.4)}"
 DESCRIPTION="${4:-Linux Server}"
 
 GOVENTURA="sefner@goventura.info"
-DB_PATH="/home/sefner/timesheet-app/it-monitor.db"
+DB_PATH="/home/sefner/vctc/timesheet-app/it-monitor.db"
 API_URL="https://goventura.info/api/it/checkin"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 AGENT_SCRIPT="$SCRIPT_DIR/agent-linux.sh"

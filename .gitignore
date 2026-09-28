@@ -44,3 +44,15 @@ next-env.d.ts
 *.db
 *.db-shm
 *.db-wal
+
+# Real credentials — Restic repository password and Wasabi keys.
+# The .template.ps1 files are the ones that belong in the repo.
+scripts/restic-env.ps1
+restic-env.ps1
+scripts/agent-config.ps1
+agent-config.ps1
+dist/
+
+# secrets and binaries (28 Sep 2026)
+scripts/restic-env.ps1
+scripts/restic.exe
